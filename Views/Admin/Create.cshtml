@@ -1,0 +1,37 @@
+@using FinalProjectAnimalShop.Models
+@model Animals
+
+@{
+    ViewData["Title"] = "Create Animal";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Create Animal</h2>
+
+<form asp-action="Create" method="post" class="needs-validation" novalidate>
+    <div class="form-group">
+        <label asp-for="Name" class="control-label"></label>
+        <input asp-for="Name" class="form-control" />
+        <span asp-validation-for="Name" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="Age" class="control-label"></label>
+        <input asp-for="Age" class="form-control" />
+        <span asp-validation-for="Age" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <label for="Photo">Photo Upload</label>
+        <input type="file" class="form-control" id="Photo" name="Photo" placeholder="/img/NoImage.jpg" />
+    </div>
+    <div class="form-group">
+        <label asp-for="Description" class="control-label"></label>
+        <textarea asp-for="Description" class="form-control"></textarea>
+        <span asp-validation-for="Description" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="CategoryId" class="control-label"></label>
+        <select asp-for="CategoryId" class="form-control" asp-items="ViewBag.Categories"></select>
+        <span asp-validation-for="CategoryId" class="text-danger"></span>
+    </div>
+    <button type="submit" class="btn btn-primary">Create</button>
+</form>

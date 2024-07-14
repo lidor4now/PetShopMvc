@@ -1,0 +1,26 @@
+@using FinalProjectAnimalShop.Models
+@model Animals
+
+@{
+    ViewData["Title"] = "Animal Details";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div class="card">
+    <img class="detail-img" src="@Model.PictureUrl" alt="@Model.Name">
+    <div class="card-body">
+        <h5 class="card-title">@Model.Name</h5>
+        <p class="detail-text">@Model.Description</p>
+        <p class="card-text"><small class="text-muted">Age: @Model.Age</small></p>
+        <h5>Comments</h5>
+        <ul class="list-group list-group-flush">
+            @foreach (var comment in Model.Comments)
+            {
+                <li class="list-group-item">@comment.Text</li>
+            }
+        </ul>
+    </div>
+</div>
+
+
+@await Html.PartialAsync("_AddComment", new Comments { })

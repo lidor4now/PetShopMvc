@@ -1,0 +1,57 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\Lidor\\Desktop\\New folder\\FinalProjectAnimalShopLidor\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "C:\\Users\\Lidor\\Desktop\\New folder\\FinalProjectAnimalShopLidor\\wwwroot\\img\\4430779_638529351084700874.webp",
+      "PackagePath": "staticwebassets\\img\\4430779_638529351084700874.webp"
+    },
+    {
+      "Id": "C:\\Users\\Lidor\\Desktop\\New folder\\FinalProjectAnimalShopLidor\\wwwroot\\img\\4430779_638529359698371845.webp",
+      "PackagePath": "staticwebassets\\img\\4430779_638529359698371845.webp"
+    },
+    {
+      "Id": "C:\\Users\\Lidor\\Desktop\\New folder\\FinalProjectAnimalShopLidor\\wwwroot\\img\\4430779_638529359915782128.webp",
+      "PackagePath": "staticwebassets\\img\\4430779_638529359915782128.webp"
+    },
+    {
+      "Id": "C:\\Users\\Lidor\\Desktop\\New folder\\FinalProjectAnimalShopLidor\\wwwroot\\img\\NoImage.jpg",
+      "PackagePath": "staticwebassets\\img\\NoImage.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Lidor\\Desktop\\New folder\\FinalProjectAnimalShopLidor\\wwwroot\\img\\autotile_tileset_templey_638529350382938980.png",
+      "PackagePath": "staticwebassets\\img\\autotile_tileset_templey_638529350382938980.png"
+    },
+    {
+      "Id": "C:\\Users\\Lidor\\Desktop\\New folder\\FinalProjectAnimalShopLidor\\wwwroot\\img\\autotile_tileset_templey_638529368642885994.png",
+      "PackagePath": "staticwebassets\\img\\autotile_tileset_templey_638529368642885994.png"
+    },
+    {
+      "Id": "C:\\Users\\Lidor\\Desktop\\New folder\\FinalProjectAnimalShopLidor\\wwwroot\\img\\autotile_tileset_templey_638529370000890294.png",
+      "PackagePath": "staticwebassets\\img\\autotile_tileset_templey_638529370000890294.png"
+    },
+    {
+      "Id": "C:\\Users\\Lidor\\Desktop\\New folder\\FinalProjectAnimalShopLidor\\wwwroot\\img\\autotile_tileset_templey_638529415554122063.png",
+      "PackagePath": "staticwebassets\\img\\autotile_tileset_templey_638529415554122063.png"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.FinalProjectAnimalShop.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.FinalProjectAnimalShop.props",
+      "PackagePath": "build\\FinalProjectAnimalShop.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.FinalProjectAnimalShop.props",
+      "PackagePath": "buildMultiTargeting\\FinalProjectAnimalShop.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.FinalProjectAnimalShop.props",
+      "PackagePath": "buildTransitive\\FinalProjectAnimalShop.props"
+    }
+  ],
+  "ElementsToRemove": []
+}
